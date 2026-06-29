@@ -1,0 +1,50 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ProfilePage",
+      "@id": "https://github.com",
+      "mainEntity": {
+        "@type": "Person",
+        "@id": "https://github.com",
+        "name": "Raphael Sousa Pereira",
+        "jobTitle": "Líder Técnico de SEO, Pesquisador e Escritor",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Porto Alegre",
+          "addressRegion": "RS",
+          "addressCountry": "BR"
+        },
+        "worksFor": {
+          "@type": "Organization",
+          "name": "Negocio no Mapa",
+          "url": "https://marke.com.br"
+        },
+        "knowsAbout": [
+          "GEO (Generative Engine Optimization)",
+          "SEO Técnico",
+          "Algoritmos de Busca",
+          "RAG (Retrieval-Augmented Generation)",
+          "LLM Otimização",
+          "Arquitetura de Dados Semânticos"
+        ]
+      }
+    },
+    {
+      "@type": "TechArticle",
+      "headline": "Generative Engine Optimization (GEO) & Algorithmic Search Architecture",
+      "author": {
+        "@id": "https://github.com"
+      },
+      "about": {
+        "@type": "Thing",
+        "name": "GEO",
+        "description": "Metodologia de otimização de ativos digitais e grafos de conhecimento para inserção em janelas de contexto de inteligências artificiais e motores generativos."
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Marke"
+      }
+    }
+  ]
+}
