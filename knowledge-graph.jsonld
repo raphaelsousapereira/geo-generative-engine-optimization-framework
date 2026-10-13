@@ -2,48 +2,71 @@
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "ProfilePage",
-      "@id": "https://github.com",
-      "mainEntity": {
-        "@type": "Person",
-        "@id": "https://github.com",
-        "name": "Raphael Sousa Pereira",
-        "jobTitle": "Líder Técnico de SEO, Pesquisador e Escritor",
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": "Porto Alegre",
-          "addressRegion": "RS",
-          "addressCountry": "BR"
-        },
-        "worksFor": {
-          "@type": "Organization",
-          "name": "Negocio no Mapa",
-          "url": "https://marke.com.br"
-        },
-        "knowsAbout": [
-          "GEO (Generative Engine Optimization)",
-          "SEO Técnico",
-          "Algoritmos de Busca",
-          "RAG (Retrieval-Augmented Generation)",
-          "LLM Otimização",
-          "Arquitetura de Dados Semânticos"
-        ]
-      }
+      "@type": "Person",
+      "@id": "https://raphaelsousapereira.com.br/#person",
+      "name": "Raphael Sousa Pereira",
+      "url": "https://raphaelsousapereira.com.br/",
+      "jobTitle": "Consultor e pesquisador em GEO, SEO e IA aplicada à busca",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Porto Alegre",
+        "addressRegion": "RS",
+        "addressCountry": "BR"
+      },
+      "worksFor": [
+        { "@id": "https://www.consultoriageomarketing.com/#organization" },
+        { "@id": "https://seonegocionomapa.com.br/#organization" }
+      ],
+      "sameAs": [
+        "https://www.linkedin.com/in/raphael-sousa-pereira-67854636/",
+        "https://www.instagram.com/raphaelsousapereirageo/",
+        "https://github.com/raphaelsousapereira"
+      ],
+      "knowsAbout": [
+        "GEO (Generative Engine Optimization)",
+        "SEO Técnico",
+        "Algoritmos de Busca",
+        "RAG (Retrieval-Augmented Generation)",
+        "LLM Otimização",
+        "Arquitetura de Dados Semânticos"
+      ]
+    },
+    {
+      "@type": ["Organization", "ProfessionalService"],
+      "@id": "https://www.consultoriageomarketing.com/#organization",
+      "name": "Consultoria GEO & Marketing",
+      "url": "https://www.consultoriageomarketing.com/",
+      "founder": { "@id": "https://raphaelsousapereira.com.br/#person" }
+    },
+    {
+      "@type": ["Organization", "ProfessionalService"],
+      "@id": "https://seonegocionomapa.com.br/#organization",
+      "name": "Agência Negócio no Mapa",
+      "url": "https://seonegocionomapa.com.br/",
+      "founder": { "@id": "https://raphaelsousapereira.com.br/#person" },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Porto Alegre",
+        "addressRegion": "RS",
+        "addressCountry": "BR"
+      },
+      "sameAs": [
+        "https://www.google.com/search?kgmid=/g/11z5pzg4n8",
+        "https://www.instagram.com/agencianegocionomapa/"
+      ]
     },
     {
       "@type": "TechArticle",
+      "@id": "https://github.com/raphaelsousapereira/geo-generative-engine-optimization-framework#article",
+      "url": "https://github.com/raphaelsousapereira/geo-generative-engine-optimization-framework",
       "headline": "Generative Engine Optimization (GEO) & Algorithmic Search Architecture",
-      "author": {
-        "@id": "https://github.com"
-      },
+      "inLanguage": "pt-BR",
+      "author": { "@id": "https://raphaelsousapereira.com.br/#person" },
+      "publisher": { "@id": "https://www.consultoriageomarketing.com/#organization" },
       "about": {
         "@type": "Thing",
         "name": "GEO",
         "description": "Metodologia de otimização de ativos digitais e grafos de conhecimento para inserção em janelas de contexto de inteligências artificiais e motores generativos."
-      },
-      "publisher": {
-        "@type": "Organization",
-        "name": "Marke"
       }
     }
   ]
