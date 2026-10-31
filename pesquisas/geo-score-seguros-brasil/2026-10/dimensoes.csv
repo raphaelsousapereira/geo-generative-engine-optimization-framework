@@ -1,0 +1,61 @@
+id,marca,dimensao_id,dimensao,peso,nota_100
+allianz,Allianz,access,Acesso e indexabilidade,12,
+allianz,Allianz,identity,Identidade e responsabilidades,12,
+allianz,Allianz,coverage,Coberturas descritas em HTML,12,
+allianz,Allianz,restrictions,"Franquias, exclusões e limites em HTML",14,
+allianz,Allianz,documents,Descoberta de condições contratuais,12,
+allianz,Allianz,claims,Sinistro e assistência,10,
+allianz,Allianz,answers,Respostas e explicações autocontidas,10,
+allianz,Allianz,architecture,Estrutura de descoberta da página,8,
+allianz,Allianz,structured,Dados estruturados publicados,6,
+allianz,Allianz,traceability,Referências e atualização identificável,4,
+hdi,HDI,access,Acesso e indexabilidade,12,
+hdi,HDI,identity,Identidade e responsabilidades,12,
+hdi,HDI,coverage,Coberturas descritas em HTML,12,
+hdi,HDI,restrictions,"Franquias, exclusões e limites em HTML",14,
+hdi,HDI,documents,Descoberta de condições contratuais,12,
+hdi,HDI,claims,Sinistro e assistência,10,
+hdi,HDI,answers,Respostas e explicações autocontidas,10,
+hdi,HDI,architecture,Estrutura de descoberta da página,8,
+hdi,HDI,structured,Dados estruturados publicados,6,
+hdi,HDI,traceability,Referências e atualização identificável,4,
+mapfre,MAPFRE,access,Acesso e indexabilidade,12,100.0
+mapfre,MAPFRE,identity,Identidade e responsabilidades,12,66.6667
+mapfre,MAPFRE,coverage,Coberturas descritas em HTML,12,100.0
+mapfre,MAPFRE,restrictions,"Franquias, exclusões e limites em HTML",14,33.3333
+mapfre,MAPFRE,documents,Descoberta de condições contratuais,12,100.0
+mapfre,MAPFRE,claims,Sinistro e assistência,10,100.0
+mapfre,MAPFRE,answers,Respostas e explicações autocontidas,10,100.0
+mapfre,MAPFRE,architecture,Estrutura de descoberta da página,8,100.0
+mapfre,MAPFRE,structured,Dados estruturados publicados,6,50.0
+mapfre,MAPFRE,traceability,Referências e atualização identificável,4,0.0
+porto,Porto Seguro,access,Acesso e indexabilidade,12,100.0
+porto,Porto Seguro,identity,Identidade e responsabilidades,12,100.0
+porto,Porto Seguro,coverage,Coberturas descritas em HTML,12,66.6667
+porto,Porto Seguro,restrictions,"Franquias, exclusões e limites em HTML",14,33.3333
+porto,Porto Seguro,documents,Descoberta de condições contratuais,12,66.6667
+porto,Porto Seguro,claims,Sinistro e assistência,10,100.0
+porto,Porto Seguro,answers,Respostas e explicações autocontidas,10,100.0
+porto,Porto Seguro,architecture,Estrutura de descoberta da página,8,100.0
+porto,Porto Seguro,structured,Dados estruturados publicados,6,0.0
+porto,Porto Seguro,traceability,Referências e atualização identificável,4,0.0
+tokio,Tokio Marine,access,Acesso e indexabilidade,12,100.0
+tokio,Tokio Marine,identity,Identidade e responsabilidades,12,66.6667
+tokio,Tokio Marine,coverage,Coberturas descritas em HTML,12,100.0
+tokio,Tokio Marine,restrictions,"Franquias, exclusões e limites em HTML",14,66.6667
+tokio,Tokio Marine,documents,Descoberta de condições contratuais,12,66.6667
+tokio,Tokio Marine,claims,Sinistro e assistência,10,100.0
+tokio,Tokio Marine,answers,Respostas e explicações autocontidas,10,100.0
+tokio,Tokio Marine,architecture,Estrutura de descoberta da página,8,100.0
+tokio,Tokio Marine,structured,Dados estruturados publicados,6,50.0
+tokio,Tokio Marine,traceability,Referências e atualização identificável,4,0.0
+zurich,Zurich,access,Acesso e indexabilidade,12,100.0
+zurich,Zurich,identity,Identidade e responsabilidades,12,100.0
+zurich,Zurich,coverage,Coberturas descritas em HTML,12,100.0
+zurich,Zurich,restrictions,"Franquias, exclusões e limites em HTML",14,66.6667
+zurich,Zurich,documents,Descoberta de condições contratuais,12,100.0
+zurich,Zurich,claims,Sinistro e assistência,10,100.0
+zurich,Zurich,answers,Respostas e explicações autocontidas,10,100.0
+zurich,Zurich,architecture,Estrutura de descoberta da página,8,100.0
+zurich,Zurich,structured,Dados estruturados publicados,6,50.0
+zurich,Zurich,traceability,Referências e atualização identificável,4,0.0

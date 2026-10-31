@@ -1,0 +1,239 @@
+{
+  "description": "Metadados selecionados de captura e links documentais. Não contém cópias integrais das páginas.",
+  "captures": [
+    {
+      "entity_id": "allianz",
+      "captured_at": "2026-10-31T02:49:37+00:00",
+      "robots": null,
+      "responses": [
+        {
+          "url": "https://www.allianz.com.br/robots.txt",
+          "status": 403,
+          "content_type": "text/html",
+          "body_utf8_sha256": "f1493319c2a20383959c724672ffd14a7928c21e5b227773f028fbd7f30a1e37",
+          "transport_sha256": "f1493319c2a20383959c724672ffd14a7928c21e5b227773f028fbd7f30a1e37",
+          "size_bytes": 5619
+        }
+      ],
+      "document_links": []
+    },
+    {
+      "entity_id": "hdi",
+      "captured_at": "2026-10-31T02:49:51+00:00",
+      "robots": null,
+      "responses": [
+        {
+          "url": "https://www.hdiseguros.com.br/robots.txt",
+          "status": 403,
+          "content_type": "text/html",
+          "body_utf8_sha256": "09af070796c1dc3c974ff0fe93f007aae27dbf9bdf2680744324f831e4518795",
+          "transport_sha256": "09af070796c1dc3c974ff0fe93f007aae27dbf9bdf2680744324f831e4518795",
+          "size_bytes": 393
+        }
+      ],
+      "document_links": []
+    },
+    {
+      "entity_id": "mapfre",
+      "captured_at": "2026-10-31T02:49:38+00:00",
+      "robots": {
+        "url": "https://www.mapfre.com.br/robots.txt",
+        "transport_sha256": "3505501df7ef094d7456e0a981f5a977e5e275bcc6ce5d032652e28becdfe5e2",
+        "ai_search_allowed": {
+          "OAI-SearchBot": true,
+          "Claude-SearchBot": true,
+          "PerplexityBot": true
+        }
+      },
+      "responses": [
+        {
+          "url": "https://www.mapfre.com.br/robots.txt",
+          "status": 200,
+          "content_type": "text/plain",
+          "body_utf8_sha256": "3505501df7ef094d7456e0a981f5a977e5e275bcc6ce5d032652e28becdfe5e2",
+          "transport_sha256": "3505501df7ef094d7456e0a981f5a977e5e275bcc6ce5d032652e28becdfe5e2",
+          "size_bytes": 167
+        },
+        {
+          "url": "https://www.mapfre.com.br/para-voce/seguro-auto/automais/",
+          "status": 200,
+          "content_type": "text/html",
+          "body_utf8_sha256": "8eb0b730a62ba58c09c3ba76ae4eda6c5cc3c407711f191ac8570aa22bf2349b",
+          "transport_sha256": "8eb0b730a62ba58c09c3ba76ae4eda6c5cc3c407711f191ac8570aa22bf2349b",
+          "size_bytes": 207124
+        },
+        {
+          "url": "https://www.mapfre.com.br/para-voce/seguro-auto/automais/assistencias-e-condicoes/",
+          "status": 200,
+          "content_type": "text/html",
+          "body_utf8_sha256": "839efaa6fc07d4f92672256a4727a608493679cccbbdd5cbf174f27576e09a8f",
+          "transport_sha256": "839efaa6fc07d4f92672256a4727a608493679cccbbdd5cbf174f27576e09a8f",
+          "size_bytes": 196269
+        }
+      ],
+      "document_links": [
+        {
+          "url": "https://www.mapfre.com.br/para-voce/seguro-auto/automais/assistencias-e-condicoes/",
+          "label": "Todas as assistências e condições",
+          "same_host": true,
+          "in_main": true
+        },
+        {
+          "url": "https://www.mapfre.com.br/para-voce/parceiros/mapfre-demais-parceiros/associacoes/",
+          "label": "Associações - Condições Gerais",
+          "same_host": true,
+          "in_main": false
+        }
+      ]
+    },
+    {
+      "entity_id": "porto",
+      "captured_at": "2026-10-31T02:49:32+00:00",
+      "robots": {
+        "url": "https://www.portoseguro.com.br/robots.txt",
+        "transport_sha256": "7e36d6a748c536564c223d0cb53e5b0ed35704710d2bd98fa4a8130765ec3bc8",
+        "ai_search_allowed": {
+          "OAI-SearchBot": true,
+          "Claude-SearchBot": true,
+          "PerplexityBot": true
+        }
+      },
+      "responses": [
+        {
+          "url": "https://www.portoseguro.com.br/robots.txt",
+          "status": 200,
+          "content_type": "text/plain",
+          "body_utf8_sha256": "7e36d6a748c536564c223d0cb53e5b0ed35704710d2bd98fa4a8130765ec3bc8",
+          "transport_sha256": "7e36d6a748c536564c223d0cb53e5b0ed35704710d2bd98fa4a8130765ec3bc8",
+          "size_bytes": 368
+        },
+        {
+          "url": "https://www.portoseguro.com.br/seguro-auto",
+          "status": 200,
+          "content_type": "text/html",
+          "body_utf8_sha256": "70fcaaed0d2f68e338e6b60ff4a694b68d7ed0c2c42f8672d6b58d716b7798d2",
+          "transport_sha256": "70fcaaed0d2f68e338e6b60ff4a694b68d7ed0c2c42f8672d6b58d716b7798d2",
+          "size_bytes": 461603
+        },
+        {
+          "url": "https://www.portoseguro.com.br/institucional/sobre-a-porto-seguro/empresas-do-grupo",
+          "status": 200,
+          "content_type": "text/html",
+          "body_utf8_sha256": "5678f2cb6fe70df0f93660b033c8fec86c15d5f557ddad46dd033f5e5327dd4d",
+          "transport_sha256": "5678f2cb6fe70df0f93660b033c8fec86c15d5f557ddad46dd033f5e5327dd4d",
+          "size_bytes": 43630
+        }
+      ],
+      "document_links": [
+        {
+          "url": "https://www.portoseguro.com.br/institucional/sobre-a-porto-seguro/empresas-do-grupo",
+          "label": "Acessar condições gerais",
+          "same_host": true,
+          "in_main": true
+        }
+      ]
+    },
+    {
+      "entity_id": "tokio",
+      "captured_at": "2026-10-31T02:49:41+00:00",
+      "robots": {
+        "url": "https://www.tokiomarine.com.br/robots.txt",
+        "transport_sha256": "f568aca603d8c63edff3c89f090718c6a3dbbc900a755c28e0f81e47c6236833",
+        "ai_search_allowed": {
+          "OAI-SearchBot": true,
+          "Claude-SearchBot": true,
+          "PerplexityBot": true
+        }
+      },
+      "responses": [
+        {
+          "url": "https://www.tokiomarine.com.br/robots.txt",
+          "status": 200,
+          "content_type": "text/plain",
+          "body_utf8_sha256": "f568aca603d8c63edff3c89f090718c6a3dbbc900a755c28e0f81e47c6236833",
+          "transport_sha256": "f568aca603d8c63edff3c89f090718c6a3dbbc900a755c28e0f81e47c6236833",
+          "size_bytes": 728
+        },
+        {
+          "url": "https://www.tokiomarine.com.br/seguros-automoveis/seguro-auto",
+          "status": 200,
+          "content_type": "text/html",
+          "body_utf8_sha256": "8025afe65879eb0e51fb7740459455ac386c4f0094880406377195b9f9c11904",
+          "transport_sha256": "8025afe65879eb0e51fb7740459455ac386c4f0094880406377195b9f9c11904",
+          "size_bytes": 696588
+        },
+        {
+          "url": "https://documentos.tokiomarine.com.br/robots.txt",
+          "status": 200,
+          "content_type": "text/plain",
+          "body_utf8_sha256": "3290ec9f4f8db470950222b9d68b0caaf1aa94680738593076d78f9355c8d100",
+          "transport_sha256": "3290ec9f4f8db470950222b9d68b0caaf1aa94680738593076d78f9355c8d100",
+          "size_bytes": 84
+        },
+        {
+          "url": "https://documentos.tokiomarine.com.br/condicoes-gerais",
+          "status": 200,
+          "content_type": "text/html",
+          "body_utf8_sha256": "d863a57bbae891c1174a371905f744a990c67fc8f218d24cd13fcfbb58dc0ab3",
+          "transport_sha256": "d863a57bbae891c1174a371905f744a990c67fc8f218d24cd13fcfbb58dc0ab3",
+          "size_bytes": 163929
+        }
+      ],
+      "document_links": [
+        {
+          "url": "https://documentos.tokiomarine.com.br/condicoes-gerais",
+          "label": "Condições Gerais",
+          "same_host": false,
+          "in_main": false
+        }
+      ]
+    },
+    {
+      "entity_id": "zurich",
+      "captured_at": "2026-10-31T02:49:51+00:00",
+      "robots": {
+        "url": "https://www.zurich.com.br/robots.txt",
+        "transport_sha256": "bd86b80d5937558f627100dcf2f5abee5ee0d070dbbf885315aebc9f37a1bfd8",
+        "ai_search_allowed": {
+          "OAI-SearchBot": true,
+          "Claude-SearchBot": true,
+          "PerplexityBot": true
+        }
+      },
+      "responses": [
+        {
+          "url": "https://www.zurich.com.br/robots.txt",
+          "status": 200,
+          "content_type": "text/plain",
+          "body_utf8_sha256": "bd86b80d5937558f627100dcf2f5abee5ee0d070dbbf885315aebc9f37a1bfd8",
+          "transport_sha256": "bd86b80d5937558f627100dcf2f5abee5ee0d070dbbf885315aebc9f37a1bfd8",
+          "size_bytes": 1247
+        },
+        {
+          "url": "https://www.zurich.com.br/seguros-para-voce/seguros-para-veiculos/automovel",
+          "status": 200,
+          "content_type": "text/html",
+          "body_utf8_sha256": "0e3f86cf4a0c7373bbae9e97df33e183f5aa487379fcc21d84e4c0497d068b54",
+          "transport_sha256": "0e3f86cf4a0c7373bbae9e97df33e183f5aa487379fcc21d84e4c0497d068b54",
+          "size_bytes": 264186
+        },
+        {
+          "url": "https://www.zurich.com.br/condicoes-gerais",
+          "status": 200,
+          "content_type": "text/html",
+          "body_utf8_sha256": "5b5c0bae4ae399e0d1fc593032d806b6d26b977ff1a68043d61b1dd350f9886c",
+          "transport_sha256": "5b5c0bae4ae399e0d1fc593032d806b6d26b977ff1a68043d61b1dd350f9886c",
+          "size_bytes": 365155
+        }
+      ],
+      "document_links": [
+        {
+          "url": "https://www.zurich.com.br/condicoes-gerais",
+          "label": "Condições Gerais",
+          "same_host": true,
+          "in_main": false
+        }
+      ]
+    }
+  ]
+}

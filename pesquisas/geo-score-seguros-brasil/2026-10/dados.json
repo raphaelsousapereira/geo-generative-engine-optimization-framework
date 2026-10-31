@@ -1,0 +1,1575 @@
+{
+  "title": "GEO Score Seguros Brasil — piloto de seguro auto",
+  "author": "Raphael Sousa Pereira",
+  "edition": "2026-10",
+  "version": "0.1.1",
+  "protocol": "auto-product-html/1",
+  "methodology_sha256": "ce7046009e829890b69835f256b901cc80450dfedb1ed2f1ad895eaea2f01d29",
+  "status": "public_experimental_research_data",
+  "public_data_url": "https://github.com/raphaelsousapereira/geo-generative-engine-optimization-framework/tree/main/pesquisas/geo-score-seguros-brasil/2026-10",
+  "classification": "experimental_convenience_sample",
+  "scale": 1000,
+  "cohort": {
+    "schema": "pandora-insurance-cohort/1",
+    "methodology_sha256": "ce7046009e829890b69835f256b901cc80450dfedb1ed2f1ad895eaea2f01d29",
+    "protocol": "auto-product-html/1",
+    "edition": "2026-10",
+    "sample_status": "convenience_pilot_not_market_representative",
+    "publication_status": "REVIEW_REQUIRED",
+    "ranking_draft": [
+      {
+        "id": "zurich",
+        "name": "Zurich",
+        "score": 883.3,
+        "coverage_pct": 100.0,
+        "equal_weights_score": 816.7,
+        "report_sha256": "4ad6672fd2a89aa5068c581bb4a6f3cb1661a4c785bb3fe1e38d0c58605ac879",
+        "position": 1,
+        "equal_weights_position": 1
+      },
+      {
+        "id": "tokio",
+        "name": "Tokio Marine",
+        "score": 803.3,
+        "coverage_pct": 100.0,
+        "equal_weights_score": 750.0,
+        "report_sha256": "937e8fcc5f2ab61b8a0976621bc106bae0a1482800d7a023ae607da840c2b60a",
+        "position": 2,
+        "equal_weights_position": 2
+      },
+      {
+        "id": "mapfre",
+        "name": "MAPFRE",
+        "score": 796.7,
+        "coverage_pct": 100.0,
+        "equal_weights_score": 750.0,
+        "report_sha256": "5d95f3ddb0cad2e2dca90b7ada6fe1e576eb5f8f13eea9426fe657bb058db67e",
+        "position": 3,
+        "equal_weights_position": 2
+      },
+      {
+        "id": "porto",
+        "name": "Porto Seguro",
+        "score": 726.7,
+        "coverage_pct": 100.0,
+        "equal_weights_score": 666.7,
+        "report_sha256": "dbe647fe8f9e84f6d45d3e165e4b8db57092164ec97fd91c6b4fa3bc890f0d37",
+        "position": 4,
+        "equal_weights_position": 4
+      }
+    ],
+    "not_ranked": [
+      {
+        "id": "allianz",
+        "name": "Allianz",
+        "reason": "not_measured"
+      },
+      {
+        "id": "hdi",
+        "name": "HDI",
+        "reason": "not_measured"
+      }
+    ],
+    "eligible": 4,
+    "total": 6,
+    "report_sha256": "fddf73fada5a435d60618fdd0e60a895e612bbe566927097a6ebc717b01c5bd9"
+  },
+  "measurements": [
+    {
+      "entity": {
+        "id": "allianz",
+        "name": "Allianz",
+        "role": "insurer",
+        "segment": "auto",
+        "product_url": "https://www.allianz.com.br/seguros/seu-patrimonio/carro.html"
+      },
+      "captured_at": "2026-10-31T02:49:37+00:00",
+      "score": null,
+      "coverage_pct": 0,
+      "dimensions": [
+        {
+          "id": "access",
+          "label": "Acesso e indexabilidade",
+          "weight": 12,
+          "score": null,
+          "checks": []
+        },
+        {
+          "id": "identity",
+          "label": "Identidade e responsabilidades",
+          "weight": 12,
+          "score": null,
+          "checks": []
+        },
+        {
+          "id": "coverage",
+          "label": "Coberturas descritas em HTML",
+          "weight": 12,
+          "score": null,
+          "checks": []
+        },
+        {
+          "id": "restrictions",
+          "label": "Franquias, exclusões e limites em HTML",
+          "weight": 14,
+          "score": null,
+          "checks": []
+        },
+        {
+          "id": "documents",
+          "label": "Descoberta de condições contratuais",
+          "weight": 12,
+          "score": null,
+          "checks": []
+        },
+        {
+          "id": "claims",
+          "label": "Sinistro e assistência",
+          "weight": 10,
+          "score": null,
+          "checks": []
+        },
+        {
+          "id": "answers",
+          "label": "Respostas e explicações autocontidas",
+          "weight": 10,
+          "score": null,
+          "checks": []
+        },
+        {
+          "id": "architecture",
+          "label": "Estrutura de descoberta da página",
+          "weight": 8,
+          "score": null,
+          "checks": []
+        },
+        {
+          "id": "structured",
+          "label": "Dados estruturados publicados",
+          "weight": 6,
+          "score": null,
+          "checks": []
+        },
+        {
+          "id": "traceability",
+          "label": "Referências e atualização identificável",
+          "weight": 4,
+          "score": null,
+          "checks": []
+        }
+      ],
+      "input_sha256": "041401f5a15017777b7aee5c3606400e8b72108ee081b875f7c562f842c078d9",
+      "report_sha256": "23720f0bf497e2783bbb253347266755ae23cf754ed64397cbe6d86ef3fe2aa2",
+      "limitations": [
+        "Prontidão da página pública de produto, não de todo o site nem da instituição.",
+        "Ausência significa sinal não localizado no corpus; não prova inexistência no site ou na apólice.",
+        "Heurísticas lexicais não verificam suficiência, verdade, qualidade do produto ou conformidade legal.",
+        "A classificação observed_snapshot é fornecida pelo coletor; hashes não autenticam origem.",
+        "Não mede citações reais, sentimento, solvência, preço ou recomendação de seguro.",
+        "PDF pode ter acesso verificado, mas seu conteúdo não é extraído nem avaliado.",
+        "Não resolve CSS/JavaScript, não exige llms.txt e não garante citação por IA.",
+        "Pesos experimentais: publicar também a sensibilidade com pesos iguais e revisar os achados."
+      ]
+    },
+    {
+      "entity": {
+        "id": "hdi",
+        "name": "HDI",
+        "role": "insurer",
+        "segment": "auto",
+        "product_url": "https://www.hdiseguros.com.br/produtos/automovel/hdi-auto-perfil"
+      },
+      "captured_at": "2026-10-31T02:49:51+00:00",
+      "score": null,
+      "coverage_pct": 0,
+      "dimensions": [
+        {
+          "id": "access",
+          "label": "Acesso e indexabilidade",
+          "weight": 12,
+          "score": null,
+          "checks": []
+        },
+        {
+          "id": "identity",
+          "label": "Identidade e responsabilidades",
+          "weight": 12,
+          "score": null,
+          "checks": []
+        },
+        {
+          "id": "coverage",
+          "label": "Coberturas descritas em HTML",
+          "weight": 12,
+          "score": null,
+          "checks": []
+        },
+        {
+          "id": "restrictions",
+          "label": "Franquias, exclusões e limites em HTML",
+          "weight": 14,
+          "score": null,
+          "checks": []
+        },
+        {
+          "id": "documents",
+          "label": "Descoberta de condições contratuais",
+          "weight": 12,
+          "score": null,
+          "checks": []
+        },
+        {
+          "id": "claims",
+          "label": "Sinistro e assistência",
+          "weight": 10,
+          "score": null,
+          "checks": []
+        },
+        {
+          "id": "answers",
+          "label": "Respostas e explicações autocontidas",
+          "weight": 10,
+          "score": null,
+          "checks": []
+        },
+        {
+          "id": "architecture",
+          "label": "Estrutura de descoberta da página",
+          "weight": 8,
+          "score": null,
+          "checks": []
+        },
+        {
+          "id": "structured",
+          "label": "Dados estruturados publicados",
+          "weight": 6,
+          "score": null,
+          "checks": []
+        },
+        {
+          "id": "traceability",
+          "label": "Referências e atualização identificável",
+          "weight": 4,
+          "score": null,
+          "checks": []
+        }
+      ],
+      "input_sha256": "4d3b67f573af4b67e2a6439c90a004e16d9f27a78dad9a0ba7a9b9195916a0a6",
+      "report_sha256": "aa16cc50f927a459934011cf78c30ed15bb4d33ca535f6a3849e58a7f44f69b9",
+      "limitations": [
+        "Prontidão da página pública de produto, não de todo o site nem da instituição.",
+        "Ausência significa sinal não localizado no corpus; não prova inexistência no site ou na apólice.",
+        "Heurísticas lexicais não verificam suficiência, verdade, qualidade do produto ou conformidade legal.",
+        "A classificação observed_snapshot é fornecida pelo coletor; hashes não autenticam origem.",
+        "Não mede citações reais, sentimento, solvência, preço ou recomendação de seguro.",
+        "PDF pode ter acesso verificado, mas seu conteúdo não é extraído nem avaliado.",
+        "Não resolve CSS/JavaScript, não exige llms.txt e não garante citação por IA.",
+        "Pesos experimentais: publicar também a sensibilidade com pesos iguais e revisar os achados."
+      ]
+    },
+    {
+      "entity": {
+        "id": "mapfre",
+        "name": "MAPFRE",
+        "role": "insurer",
+        "segment": "auto",
+        "product_url": "https://www.mapfre.com.br/para-voce/seguro-auto/automais/"
+      },
+      "captured_at": "2026-10-31T02:49:38+00:00",
+      "score": 796.7,
+      "coverage_pct": 100.0,
+      "dimensions": [
+        {
+          "id": "access",
+          "label": "Acesso e indexabilidade",
+          "weight": 12,
+          "score": 100.0,
+          "checks": [
+            {
+              "id": "html",
+              "value": 1.0,
+              "label": "Texto principal entregue no HTML",
+              "source_urls": [
+                "https://www.mapfre.com.br/para-voce/seguro-auto/automais/"
+              ]
+            },
+            {
+              "id": "index",
+              "value": 1.0,
+              "label": "Sem diretiva noindex observada",
+              "source_urls": [
+                "https://www.mapfre.com.br/para-voce/seguro-auto/automais/"
+              ]
+            },
+            {
+              "id": "robots",
+              "value": 1.0,
+              "label": "Permissão declarada para três robôs de busca IA",
+              "source_urls": [
+                "https://www.mapfre.com.br/para-voce/seguro-auto/automais/"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "identity",
+          "label": "Identidade e responsabilidades",
+          "weight": 12,
+          "score": 66.6667,
+          "checks": [
+            {
+              "id": "brand",
+              "value": 1.0,
+              "label": "Marca identificada no texto público",
+              "source_urls": [
+                "https://www.mapfre.com.br/para-voce/seguro-auto/automais/"
+              ]
+            },
+            {
+              "id": "responsibility",
+              "value": 1.0,
+              "label": "Sinal textual de instituição responsável",
+              "source_urls": [
+                "https://www.mapfre.com.br/para-voce/seguro-auto/automais/"
+              ]
+            },
+            {
+              "id": "cnpj",
+              "value": 0.0,
+              "label": "CNPJ identificado no HTML público",
+              "source_urls": [
+                "https://www.mapfre.com.br/para-voce/seguro-auto/automais/"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "coverage",
+          "label": "Coberturas descritas em HTML",
+          "weight": 12,
+          "score": 100.0,
+          "checks": [
+            {
+              "id": "perils",
+              "value": 1.0,
+              "label": "Descrição de riscos cobertos",
+              "source_urls": [
+                "https://www.mapfre.com.br/para-voce/seguro-auto/automais/"
+              ]
+            },
+            {
+              "id": "third_party",
+              "value": 1.0,
+              "label": "Descrição sobre terceiros ou passageiros",
+              "source_urls": [
+                "https://www.mapfre.com.br/para-voce/seguro-auto/automais/"
+              ]
+            },
+            {
+              "id": "optional",
+              "value": 1.0,
+              "label": "Diferenciação textual de opção/contratação",
+              "source_urls": [
+                "https://www.mapfre.com.br/para-voce/seguro-auto/automais/"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "restrictions",
+          "label": "Franquias, exclusões e limites em HTML",
+          "weight": 14,
+          "score": 33.3333,
+          "checks": [
+            {
+              "id": "deductible",
+              "value": 1.0,
+              "label": "Explicação sobre franquia em HTML",
+              "source_urls": [
+                "https://www.mapfre.com.br/para-voce/seguro-auto/automais/"
+              ]
+            },
+            {
+              "id": "exclusions",
+              "value": 0.0,
+              "label": "Explicação sobre exclusões em HTML",
+              "source_urls": [
+                "https://www.mapfre.com.br/para-voce/seguro-auto/automais/"
+              ]
+            },
+            {
+              "id": "limits",
+              "value": 0.0,
+              "label": "Descrição de limites/condições de uso em HTML",
+              "source_urls": [
+                "https://www.mapfre.com.br/para-voce/seguro-auto/automais/"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "documents",
+          "label": "Descoberta de condições contratuais",
+          "weight": 12,
+          "score": 100.0,
+          "checks": [
+            {
+              "id": "link",
+              "value": 1.0,
+              "label": "Link identificável para condições/documentos",
+              "source_urls": [
+                "https://www.mapfre.com.br/para-voce/seguro-auto/automais/"
+              ]
+            },
+            {
+              "id": "retrieval",
+              "value": 1.0,
+              "label": "Destino documental coletado com HTTP 200",
+              "source_urls": [
+                "https://www.mapfre.com.br/para-voce/seguro-auto/automais/assistencias-e-condicoes/"
+              ]
+            },
+            {
+              "id": "product_context",
+              "value": 1.0,
+              "label": "Indício documental de seguro auto no destino HTML",
+              "source_urls": [
+                "https://www.mapfre.com.br/para-voce/seguro-auto/automais/assistencias-e-condicoes/"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "claims",
+          "label": "Sinistro e assistência",
+          "weight": 10,
+          "score": 100.0,
+          "checks": [
+            {
+              "id": "process",
+              "value": 1.0,
+              "label": "Orientação sobre sinistro",
+              "source_urls": [
+                "https://www.mapfre.com.br/para-voce/seguro-auto/automais/"
+              ]
+            },
+            {
+              "id": "assistance",
+              "value": 1.0,
+              "label": "Descrição de assistência/atendimento",
+              "source_urls": [
+                "https://www.mapfre.com.br/para-voce/seguro-auto/automais/"
+              ]
+            },
+            {
+              "id": "channel",
+              "value": 1.0,
+              "label": "Canal acionável publicado",
+              "source_urls": [
+                "https://www.mapfre.com.br/para-voce/seguro-auto/automais/"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "answers",
+          "label": "Respostas e explicações autocontidas",
+          "weight": 10,
+          "score": 100.0,
+          "checks": [
+            {
+              "id": "paragraphs",
+              "value": 1.0,
+              "label": "Passagens de explicação entre 20 e 160 palavras",
+              "source_urls": [
+                "https://www.mapfre.com.br/para-voce/seguro-auto/automais/"
+              ]
+            },
+            {
+              "id": "qa",
+              "value": 1.0,
+              "label": "Perguntas seguidas de resposta textual",
+              "source_urls": [
+                "https://www.mapfre.com.br/para-voce/seguro-auto/automais/"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "architecture",
+          "label": "Estrutura de descoberta da página",
+          "weight": 8,
+          "score": 100.0,
+          "checks": [
+            {
+              "id": "title",
+              "value": 1.0,
+              "label": "Título e H1 identificam o tema automóvel",
+              "source_urls": [
+                "https://www.mapfre.com.br/para-voce/seguro-auto/automais/"
+              ]
+            },
+            {
+              "id": "canonical",
+              "value": 1.0,
+              "label": "Canonical aponta para a própria página",
+              "source_urls": [
+                "https://www.mapfre.com.br/para-voce/seguro-auto/automais/"
+              ]
+            },
+            {
+              "id": "headings",
+              "value": 1.0,
+              "label": "Conteúdo segmentado em títulos",
+              "source_urls": [
+                "https://www.mapfre.com.br/para-voce/seguro-auto/automais/"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "structured",
+          "label": "Dados estruturados publicados",
+          "weight": 6,
+          "score": 50.0,
+          "checks": [
+            {
+              "id": "syntax",
+              "value": 1.0,
+              "label": "JSON-LD presente e parseável",
+              "source_urls": [
+                "https://www.mapfre.com.br/para-voce/seguro-auto/automais/"
+              ]
+            },
+            {
+              "id": "entity",
+              "value": 0.0,
+              "label": "Nó de organização ou serviço/produto identificado",
+              "source_urls": [
+                "https://www.mapfre.com.br/para-voce/seguro-auto/automais/"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "traceability",
+          "label": "Referências e atualização identificável",
+          "weight": 4,
+          "score": 0.0,
+          "checks": [
+            {
+              "id": "dated",
+              "value": 0.0,
+              "label": "Versão/vigência/atualização identificável no produto",
+              "source_urls": [
+                "https://www.mapfre.com.br/para-voce/seguro-auto/automais/"
+              ]
+            },
+            {
+              "id": "reference",
+              "value": 0.0,
+              "label": "Referência oficial identificável",
+              "source_urls": [
+                "https://www.mapfre.com.br/para-voce/seguro-auto/automais/"
+              ]
+            }
+          ]
+        }
+      ],
+      "input_sha256": "dffd437bb83bd0c36ec28605bfd911a9c24b0081aa9db4b09a4e708bf9342395",
+      "report_sha256": "5d95f3ddb0cad2e2dca90b7ada6fe1e576eb5f8f13eea9426fe657bb058db67e",
+      "limitations": [
+        "Prontidão da página pública de produto, não de todo o site nem da instituição.",
+        "Ausência significa sinal não localizado no corpus; não prova inexistência no site ou na apólice.",
+        "Heurísticas lexicais não verificam suficiência, verdade, qualidade do produto ou conformidade legal.",
+        "A classificação observed_snapshot é fornecida pelo coletor; hashes não autenticam origem.",
+        "Não mede citações reais, sentimento, solvência, preço ou recomendação de seguro.",
+        "PDF pode ter acesso verificado, mas seu conteúdo não é extraído nem avaliado.",
+        "Não resolve CSS/JavaScript, não exige llms.txt e não garante citação por IA.",
+        "Pesos experimentais: publicar também a sensibilidade com pesos iguais e revisar os achados."
+      ]
+    },
+    {
+      "entity": {
+        "id": "porto",
+        "name": "Porto Seguro",
+        "role": "insurer",
+        "segment": "auto",
+        "product_url": "https://www.portoseguro.com.br/seguro-auto"
+      },
+      "captured_at": "2026-10-31T02:49:32+00:00",
+      "score": 726.7,
+      "coverage_pct": 100.0,
+      "dimensions": [
+        {
+          "id": "access",
+          "label": "Acesso e indexabilidade",
+          "weight": 12,
+          "score": 100.0,
+          "checks": [
+            {
+              "id": "html",
+              "value": 1.0,
+              "label": "Texto principal entregue no HTML",
+              "source_urls": [
+                "https://www.portoseguro.com.br/seguro-auto"
+              ]
+            },
+            {
+              "id": "index",
+              "value": 1.0,
+              "label": "Sem diretiva noindex observada",
+              "source_urls": [
+                "https://www.portoseguro.com.br/seguro-auto"
+              ]
+            },
+            {
+              "id": "robots",
+              "value": 1.0,
+              "label": "Permissão declarada para três robôs de busca IA",
+              "source_urls": [
+                "https://www.portoseguro.com.br/seguro-auto"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "identity",
+          "label": "Identidade e responsabilidades",
+          "weight": 12,
+          "score": 100.0,
+          "checks": [
+            {
+              "id": "brand",
+              "value": 1.0,
+              "label": "Marca identificada no texto público",
+              "source_urls": [
+                "https://www.portoseguro.com.br/seguro-auto"
+              ]
+            },
+            {
+              "id": "responsibility",
+              "value": 1.0,
+              "label": "Sinal textual de instituição responsável",
+              "source_urls": [
+                "https://www.portoseguro.com.br/seguro-auto"
+              ]
+            },
+            {
+              "id": "cnpj",
+              "value": 1.0,
+              "label": "CNPJ identificado no HTML público",
+              "source_urls": [
+                "https://www.portoseguro.com.br/seguro-auto"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "coverage",
+          "label": "Coberturas descritas em HTML",
+          "weight": 12,
+          "score": 66.6667,
+          "checks": [
+            {
+              "id": "perils",
+              "value": 1.0,
+              "label": "Descrição de riscos cobertos",
+              "source_urls": [
+                "https://www.portoseguro.com.br/seguro-auto"
+              ]
+            },
+            {
+              "id": "third_party",
+              "value": 1.0,
+              "label": "Descrição sobre terceiros ou passageiros",
+              "source_urls": [
+                "https://www.portoseguro.com.br/seguro-auto"
+              ]
+            },
+            {
+              "id": "optional",
+              "value": 0.0,
+              "label": "Diferenciação textual de opção/contratação",
+              "source_urls": [
+                "https://www.portoseguro.com.br/seguro-auto"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "restrictions",
+          "label": "Franquias, exclusões e limites em HTML",
+          "weight": 14,
+          "score": 33.3333,
+          "checks": [
+            {
+              "id": "deductible",
+              "value": 1.0,
+              "label": "Explicação sobre franquia em HTML",
+              "source_urls": [
+                "https://www.portoseguro.com.br/seguro-auto"
+              ]
+            },
+            {
+              "id": "exclusions",
+              "value": 0.0,
+              "label": "Explicação sobre exclusões em HTML",
+              "source_urls": [
+                "https://www.portoseguro.com.br/seguro-auto"
+              ]
+            },
+            {
+              "id": "limits",
+              "value": 0.0,
+              "label": "Descrição de limites/condições de uso em HTML",
+              "source_urls": [
+                "https://www.portoseguro.com.br/seguro-auto"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "documents",
+          "label": "Descoberta de condições contratuais",
+          "weight": 12,
+          "score": 66.6667,
+          "checks": [
+            {
+              "id": "link",
+              "value": 1.0,
+              "label": "Link identificável para condições/documentos",
+              "source_urls": [
+                "https://www.portoseguro.com.br/seguro-auto"
+              ]
+            },
+            {
+              "id": "retrieval",
+              "value": 1.0,
+              "label": "Destino documental coletado com HTTP 200",
+              "source_urls": [
+                "https://www.portoseguro.com.br/institucional/sobre-a-porto-seguro/empresas-do-grupo"
+              ]
+            },
+            {
+              "id": "product_context",
+              "value": 0.0,
+              "label": "Indício documental de seguro auto no destino HTML",
+              "source_urls": [
+                "https://www.portoseguro.com.br/institucional/sobre-a-porto-seguro/empresas-do-grupo"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "claims",
+          "label": "Sinistro e assistência",
+          "weight": 10,
+          "score": 100.0,
+          "checks": [
+            {
+              "id": "process",
+              "value": 1.0,
+              "label": "Orientação sobre sinistro",
+              "source_urls": [
+                "https://www.portoseguro.com.br/seguro-auto"
+              ]
+            },
+            {
+              "id": "assistance",
+              "value": 1.0,
+              "label": "Descrição de assistência/atendimento",
+              "source_urls": [
+                "https://www.portoseguro.com.br/seguro-auto"
+              ]
+            },
+            {
+              "id": "channel",
+              "value": 1.0,
+              "label": "Canal acionável publicado",
+              "source_urls": [
+                "https://www.portoseguro.com.br/seguro-auto"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "answers",
+          "label": "Respostas e explicações autocontidas",
+          "weight": 10,
+          "score": 100.0,
+          "checks": [
+            {
+              "id": "paragraphs",
+              "value": 1.0,
+              "label": "Passagens de explicação entre 20 e 160 palavras",
+              "source_urls": [
+                "https://www.portoseguro.com.br/seguro-auto"
+              ]
+            },
+            {
+              "id": "qa",
+              "value": 1.0,
+              "label": "Perguntas seguidas de resposta textual",
+              "source_urls": [
+                "https://www.portoseguro.com.br/seguro-auto"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "architecture",
+          "label": "Estrutura de descoberta da página",
+          "weight": 8,
+          "score": 100.0,
+          "checks": [
+            {
+              "id": "title",
+              "value": 1.0,
+              "label": "Título e H1 identificam o tema automóvel",
+              "source_urls": [
+                "https://www.portoseguro.com.br/seguro-auto"
+              ]
+            },
+            {
+              "id": "canonical",
+              "value": 1.0,
+              "label": "Canonical aponta para a própria página",
+              "source_urls": [
+                "https://www.portoseguro.com.br/seguro-auto"
+              ]
+            },
+            {
+              "id": "headings",
+              "value": 1.0,
+              "label": "Conteúdo segmentado em títulos",
+              "source_urls": [
+                "https://www.portoseguro.com.br/seguro-auto"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "structured",
+          "label": "Dados estruturados publicados",
+          "weight": 6,
+          "score": 0.0,
+          "checks": [
+            {
+              "id": "syntax",
+              "value": 0.0,
+              "label": "JSON-LD presente e parseável",
+              "source_urls": [
+                "https://www.portoseguro.com.br/seguro-auto"
+              ]
+            },
+            {
+              "id": "entity",
+              "value": 0.0,
+              "label": "Nó de organização ou serviço/produto identificado",
+              "source_urls": [
+                "https://www.portoseguro.com.br/seguro-auto"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "traceability",
+          "label": "Referências e atualização identificável",
+          "weight": 4,
+          "score": 0.0,
+          "checks": [
+            {
+              "id": "dated",
+              "value": 0.0,
+              "label": "Versão/vigência/atualização identificável no produto",
+              "source_urls": [
+                "https://www.portoseguro.com.br/seguro-auto"
+              ]
+            },
+            {
+              "id": "reference",
+              "value": 0.0,
+              "label": "Referência oficial identificável",
+              "source_urls": [
+                "https://www.portoseguro.com.br/seguro-auto"
+              ]
+            }
+          ]
+        }
+      ],
+      "input_sha256": "6a80a45849eec1bac35cbf57d0fef61c3786e078aea45e0e822b36294944f7ef",
+      "report_sha256": "dbe647fe8f9e84f6d45d3e165e4b8db57092164ec97fd91c6b4fa3bc890f0d37",
+      "limitations": [
+        "Prontidão da página pública de produto, não de todo o site nem da instituição.",
+        "Ausência significa sinal não localizado no corpus; não prova inexistência no site ou na apólice.",
+        "Heurísticas lexicais não verificam suficiência, verdade, qualidade do produto ou conformidade legal.",
+        "A classificação observed_snapshot é fornecida pelo coletor; hashes não autenticam origem.",
+        "Não mede citações reais, sentimento, solvência, preço ou recomendação de seguro.",
+        "PDF pode ter acesso verificado, mas seu conteúdo não é extraído nem avaliado.",
+        "Não resolve CSS/JavaScript, não exige llms.txt e não garante citação por IA.",
+        "Pesos experimentais: publicar também a sensibilidade com pesos iguais e revisar os achados."
+      ]
+    },
+    {
+      "entity": {
+        "id": "tokio",
+        "name": "Tokio Marine",
+        "role": "insurer",
+        "segment": "auto",
+        "product_url": "https://www.tokiomarine.com.br/seguros-automoveis/seguro-auto"
+      },
+      "captured_at": "2026-10-31T02:49:41+00:00",
+      "score": 803.3,
+      "coverage_pct": 100.0,
+      "dimensions": [
+        {
+          "id": "access",
+          "label": "Acesso e indexabilidade",
+          "weight": 12,
+          "score": 100.0,
+          "checks": [
+            {
+              "id": "html",
+              "value": 1.0,
+              "label": "Texto principal entregue no HTML",
+              "source_urls": [
+                "https://www.tokiomarine.com.br/seguros-automoveis/seguro-auto"
+              ]
+            },
+            {
+              "id": "index",
+              "value": 1.0,
+              "label": "Sem diretiva noindex observada",
+              "source_urls": [
+                "https://www.tokiomarine.com.br/seguros-automoveis/seguro-auto"
+              ]
+            },
+            {
+              "id": "robots",
+              "value": 1.0,
+              "label": "Permissão declarada para três robôs de busca IA",
+              "source_urls": [
+                "https://www.tokiomarine.com.br/seguros-automoveis/seguro-auto"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "identity",
+          "label": "Identidade e responsabilidades",
+          "weight": 12,
+          "score": 66.6667,
+          "checks": [
+            {
+              "id": "brand",
+              "value": 1.0,
+              "label": "Marca identificada no texto público",
+              "source_urls": [
+                "https://www.tokiomarine.com.br/seguros-automoveis/seguro-auto"
+              ]
+            },
+            {
+              "id": "responsibility",
+              "value": 0.0,
+              "label": "Sinal textual de instituição responsável",
+              "source_urls": [
+                "https://www.tokiomarine.com.br/seguros-automoveis/seguro-auto"
+              ]
+            },
+            {
+              "id": "cnpj",
+              "value": 1.0,
+              "label": "CNPJ identificado no HTML público",
+              "source_urls": [
+                "https://www.tokiomarine.com.br/seguros-automoveis/seguro-auto"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "coverage",
+          "label": "Coberturas descritas em HTML",
+          "weight": 12,
+          "score": 100.0,
+          "checks": [
+            {
+              "id": "perils",
+              "value": 1.0,
+              "label": "Descrição de riscos cobertos",
+              "source_urls": [
+                "https://www.tokiomarine.com.br/seguros-automoveis/seguro-auto"
+              ]
+            },
+            {
+              "id": "third_party",
+              "value": 1.0,
+              "label": "Descrição sobre terceiros ou passageiros",
+              "source_urls": [
+                "https://www.tokiomarine.com.br/seguros-automoveis/seguro-auto"
+              ]
+            },
+            {
+              "id": "optional",
+              "value": 1.0,
+              "label": "Diferenciação textual de opção/contratação",
+              "source_urls": [
+                "https://www.tokiomarine.com.br/seguros-automoveis/seguro-auto"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "restrictions",
+          "label": "Franquias, exclusões e limites em HTML",
+          "weight": 14,
+          "score": 66.6667,
+          "checks": [
+            {
+              "id": "deductible",
+              "value": 1.0,
+              "label": "Explicação sobre franquia em HTML",
+              "source_urls": [
+                "https://www.tokiomarine.com.br/seguros-automoveis/seguro-auto"
+              ]
+            },
+            {
+              "id": "exclusions",
+              "value": 0.0,
+              "label": "Explicação sobre exclusões em HTML",
+              "source_urls": [
+                "https://www.tokiomarine.com.br/seguros-automoveis/seguro-auto"
+              ]
+            },
+            {
+              "id": "limits",
+              "value": 1.0,
+              "label": "Descrição de limites/condições de uso em HTML",
+              "source_urls": [
+                "https://www.tokiomarine.com.br/seguros-automoveis/seguro-auto"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "documents",
+          "label": "Descoberta de condições contratuais",
+          "weight": 12,
+          "score": 66.6667,
+          "checks": [
+            {
+              "id": "link",
+              "value": 1.0,
+              "label": "Link identificável para condições/documentos",
+              "source_urls": [
+                "https://www.tokiomarine.com.br/seguros-automoveis/seguro-auto"
+              ]
+            },
+            {
+              "id": "retrieval",
+              "value": 1.0,
+              "label": "Destino documental coletado com HTTP 200",
+              "source_urls": [
+                "https://documentos.tokiomarine.com.br/condicoes-gerais"
+              ]
+            },
+            {
+              "id": "product_context",
+              "value": 0.0,
+              "label": "Indício documental de seguro auto no destino HTML",
+              "source_urls": [
+                "https://documentos.tokiomarine.com.br/condicoes-gerais"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "claims",
+          "label": "Sinistro e assistência",
+          "weight": 10,
+          "score": 100.0,
+          "checks": [
+            {
+              "id": "process",
+              "value": 1.0,
+              "label": "Orientação sobre sinistro",
+              "source_urls": [
+                "https://www.tokiomarine.com.br/seguros-automoveis/seguro-auto"
+              ]
+            },
+            {
+              "id": "assistance",
+              "value": 1.0,
+              "label": "Descrição de assistência/atendimento",
+              "source_urls": [
+                "https://www.tokiomarine.com.br/seguros-automoveis/seguro-auto"
+              ]
+            },
+            {
+              "id": "channel",
+              "value": 1.0,
+              "label": "Canal acionável publicado",
+              "source_urls": [
+                "https://www.tokiomarine.com.br/seguros-automoveis/seguro-auto"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "answers",
+          "label": "Respostas e explicações autocontidas",
+          "weight": 10,
+          "score": 100.0,
+          "checks": [
+            {
+              "id": "paragraphs",
+              "value": 1.0,
+              "label": "Passagens de explicação entre 20 e 160 palavras",
+              "source_urls": [
+                "https://www.tokiomarine.com.br/seguros-automoveis/seguro-auto"
+              ]
+            },
+            {
+              "id": "qa",
+              "value": 1.0,
+              "label": "Perguntas seguidas de resposta textual",
+              "source_urls": [
+                "https://www.tokiomarine.com.br/seguros-automoveis/seguro-auto"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "architecture",
+          "label": "Estrutura de descoberta da página",
+          "weight": 8,
+          "score": 100.0,
+          "checks": [
+            {
+              "id": "title",
+              "value": 1.0,
+              "label": "Título e H1 identificam o tema automóvel",
+              "source_urls": [
+                "https://www.tokiomarine.com.br/seguros-automoveis/seguro-auto"
+              ]
+            },
+            {
+              "id": "canonical",
+              "value": 1.0,
+              "label": "Canonical aponta para a própria página",
+              "source_urls": [
+                "https://www.tokiomarine.com.br/seguros-automoveis/seguro-auto"
+              ]
+            },
+            {
+              "id": "headings",
+              "value": 1.0,
+              "label": "Conteúdo segmentado em títulos",
+              "source_urls": [
+                "https://www.tokiomarine.com.br/seguros-automoveis/seguro-auto"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "structured",
+          "label": "Dados estruturados publicados",
+          "weight": 6,
+          "score": 50.0,
+          "checks": [
+            {
+              "id": "syntax",
+              "value": 1.0,
+              "label": "JSON-LD presente e parseável",
+              "source_urls": [
+                "https://www.tokiomarine.com.br/seguros-automoveis/seguro-auto"
+              ]
+            },
+            {
+              "id": "entity",
+              "value": 0.0,
+              "label": "Nó de organização ou serviço/produto identificado",
+              "source_urls": [
+                "https://www.tokiomarine.com.br/seguros-automoveis/seguro-auto"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "traceability",
+          "label": "Referências e atualização identificável",
+          "weight": 4,
+          "score": 0.0,
+          "checks": [
+            {
+              "id": "dated",
+              "value": 0.0,
+              "label": "Versão/vigência/atualização identificável no produto",
+              "source_urls": [
+                "https://www.tokiomarine.com.br/seguros-automoveis/seguro-auto"
+              ]
+            },
+            {
+              "id": "reference",
+              "value": 0.0,
+              "label": "Referência oficial identificável",
+              "source_urls": [
+                "https://www.tokiomarine.com.br/seguros-automoveis/seguro-auto"
+              ]
+            }
+          ]
+        }
+      ],
+      "input_sha256": "7e6784f5abe45641a43edae66eb04f4289b84956c819756d1e88a635893aa072",
+      "report_sha256": "937e8fcc5f2ab61b8a0976621bc106bae0a1482800d7a023ae607da840c2b60a",
+      "limitations": [
+        "Prontidão da página pública de produto, não de todo o site nem da instituição.",
+        "Ausência significa sinal não localizado no corpus; não prova inexistência no site ou na apólice.",
+        "Heurísticas lexicais não verificam suficiência, verdade, qualidade do produto ou conformidade legal.",
+        "A classificação observed_snapshot é fornecida pelo coletor; hashes não autenticam origem.",
+        "Não mede citações reais, sentimento, solvência, preço ou recomendação de seguro.",
+        "PDF pode ter acesso verificado, mas seu conteúdo não é extraído nem avaliado.",
+        "Não resolve CSS/JavaScript, não exige llms.txt e não garante citação por IA.",
+        "Pesos experimentais: publicar também a sensibilidade com pesos iguais e revisar os achados."
+      ]
+    },
+    {
+      "entity": {
+        "id": "zurich",
+        "name": "Zurich",
+        "role": "insurer",
+        "segment": "auto",
+        "product_url": "https://www.zurich.com.br/seguros-para-voce/seguros-para-veiculos/automovel"
+      },
+      "captured_at": "2026-10-31T02:49:51+00:00",
+      "score": 883.3,
+      "coverage_pct": 100.0,
+      "dimensions": [
+        {
+          "id": "access",
+          "label": "Acesso e indexabilidade",
+          "weight": 12,
+          "score": 100.0,
+          "checks": [
+            {
+              "id": "html",
+              "value": 1.0,
+              "label": "Texto principal entregue no HTML",
+              "source_urls": [
+                "https://www.zurich.com.br/seguros-para-voce/seguros-para-veiculos/automovel"
+              ]
+            },
+            {
+              "id": "index",
+              "value": 1.0,
+              "label": "Sem diretiva noindex observada",
+              "source_urls": [
+                "https://www.zurich.com.br/seguros-para-voce/seguros-para-veiculos/automovel"
+              ]
+            },
+            {
+              "id": "robots",
+              "value": 1.0,
+              "label": "Permissão declarada para três robôs de busca IA",
+              "source_urls": [
+                "https://www.zurich.com.br/seguros-para-voce/seguros-para-veiculos/automovel"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "identity",
+          "label": "Identidade e responsabilidades",
+          "weight": 12,
+          "score": 100.0,
+          "checks": [
+            {
+              "id": "brand",
+              "value": 1.0,
+              "label": "Marca identificada no texto público",
+              "source_urls": [
+                "https://www.zurich.com.br/seguros-para-voce/seguros-para-veiculos/automovel"
+              ]
+            },
+            {
+              "id": "responsibility",
+              "value": 1.0,
+              "label": "Sinal textual de instituição responsável",
+              "source_urls": [
+                "https://www.zurich.com.br/seguros-para-voce/seguros-para-veiculos/automovel"
+              ]
+            },
+            {
+              "id": "cnpj",
+              "value": 1.0,
+              "label": "CNPJ identificado no HTML público",
+              "source_urls": [
+                "https://www.zurich.com.br/seguros-para-voce/seguros-para-veiculos/automovel"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "coverage",
+          "label": "Coberturas descritas em HTML",
+          "weight": 12,
+          "score": 100.0,
+          "checks": [
+            {
+              "id": "perils",
+              "value": 1.0,
+              "label": "Descrição de riscos cobertos",
+              "source_urls": [
+                "https://www.zurich.com.br/seguros-para-voce/seguros-para-veiculos/automovel"
+              ]
+            },
+            {
+              "id": "third_party",
+              "value": 1.0,
+              "label": "Descrição sobre terceiros ou passageiros",
+              "source_urls": [
+                "https://www.zurich.com.br/seguros-para-voce/seguros-para-veiculos/automovel"
+              ]
+            },
+            {
+              "id": "optional",
+              "value": 1.0,
+              "label": "Diferenciação textual de opção/contratação",
+              "source_urls": [
+                "https://www.zurich.com.br/seguros-para-voce/seguros-para-veiculos/automovel"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "restrictions",
+          "label": "Franquias, exclusões e limites em HTML",
+          "weight": 14,
+          "score": 66.6667,
+          "checks": [
+            {
+              "id": "deductible",
+              "value": 1.0,
+              "label": "Explicação sobre franquia em HTML",
+              "source_urls": [
+                "https://www.zurich.com.br/seguros-para-voce/seguros-para-veiculos/automovel"
+              ]
+            },
+            {
+              "id": "exclusions",
+              "value": 0.0,
+              "label": "Explicação sobre exclusões em HTML",
+              "source_urls": [
+                "https://www.zurich.com.br/seguros-para-voce/seguros-para-veiculos/automovel"
+              ]
+            },
+            {
+              "id": "limits",
+              "value": 1.0,
+              "label": "Descrição de limites/condições de uso em HTML",
+              "source_urls": [
+                "https://www.zurich.com.br/seguros-para-voce/seguros-para-veiculos/automovel"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "documents",
+          "label": "Descoberta de condições contratuais",
+          "weight": 12,
+          "score": 100.0,
+          "checks": [
+            {
+              "id": "link",
+              "value": 1.0,
+              "label": "Link identificável para condições/documentos",
+              "source_urls": [
+                "https://www.zurich.com.br/seguros-para-voce/seguros-para-veiculos/automovel"
+              ]
+            },
+            {
+              "id": "retrieval",
+              "value": 1.0,
+              "label": "Destino documental coletado com HTTP 200",
+              "source_urls": [
+                "https://www.zurich.com.br/condicoes-gerais"
+              ]
+            },
+            {
+              "id": "product_context",
+              "value": 1.0,
+              "label": "Indício documental de seguro auto no destino HTML",
+              "source_urls": [
+                "https://www.zurich.com.br/condicoes-gerais"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "claims",
+          "label": "Sinistro e assistência",
+          "weight": 10,
+          "score": 100.0,
+          "checks": [
+            {
+              "id": "process",
+              "value": 1.0,
+              "label": "Orientação sobre sinistro",
+              "source_urls": [
+                "https://www.zurich.com.br/seguros-para-voce/seguros-para-veiculos/automovel"
+              ]
+            },
+            {
+              "id": "assistance",
+              "value": 1.0,
+              "label": "Descrição de assistência/atendimento",
+              "source_urls": [
+                "https://www.zurich.com.br/seguros-para-voce/seguros-para-veiculos/automovel"
+              ]
+            },
+            {
+              "id": "channel",
+              "value": 1.0,
+              "label": "Canal acionável publicado",
+              "source_urls": [
+                "https://www.zurich.com.br/seguros-para-voce/seguros-para-veiculos/automovel"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "answers",
+          "label": "Respostas e explicações autocontidas",
+          "weight": 10,
+          "score": 100.0,
+          "checks": [
+            {
+              "id": "paragraphs",
+              "value": 1.0,
+              "label": "Passagens de explicação entre 20 e 160 palavras",
+              "source_urls": [
+                "https://www.zurich.com.br/seguros-para-voce/seguros-para-veiculos/automovel"
+              ]
+            },
+            {
+              "id": "qa",
+              "value": 1.0,
+              "label": "Perguntas seguidas de resposta textual",
+              "source_urls": [
+                "https://www.zurich.com.br/seguros-para-voce/seguros-para-veiculos/automovel"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "architecture",
+          "label": "Estrutura de descoberta da página",
+          "weight": 8,
+          "score": 100.0,
+          "checks": [
+            {
+              "id": "title",
+              "value": 1.0,
+              "label": "Título e H1 identificam o tema automóvel",
+              "source_urls": [
+                "https://www.zurich.com.br/seguros-para-voce/seguros-para-veiculos/automovel"
+              ]
+            },
+            {
+              "id": "canonical",
+              "value": 1.0,
+              "label": "Canonical aponta para a própria página",
+              "source_urls": [
+                "https://www.zurich.com.br/seguros-para-voce/seguros-para-veiculos/automovel"
+              ]
+            },
+            {
+              "id": "headings",
+              "value": 1.0,
+              "label": "Conteúdo segmentado em títulos",
+              "source_urls": [
+                "https://www.zurich.com.br/seguros-para-voce/seguros-para-veiculos/automovel"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "structured",
+          "label": "Dados estruturados publicados",
+          "weight": 6,
+          "score": 50.0,
+          "checks": [
+            {
+              "id": "syntax",
+              "value": 1.0,
+              "label": "JSON-LD presente e parseável",
+              "source_urls": [
+                "https://www.zurich.com.br/seguros-para-voce/seguros-para-veiculos/automovel"
+              ]
+            },
+            {
+              "id": "entity",
+              "value": 0.0,
+              "label": "Nó de organização ou serviço/produto identificado",
+              "source_urls": [
+                "https://www.zurich.com.br/seguros-para-voce/seguros-para-veiculos/automovel"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "traceability",
+          "label": "Referências e atualização identificável",
+          "weight": 4,
+          "score": 0.0,
+          "checks": [
+            {
+              "id": "dated",
+              "value": 0.0,
+              "label": "Versão/vigência/atualização identificável no produto",
+              "source_urls": [
+                "https://www.zurich.com.br/seguros-para-voce/seguros-para-veiculos/automovel"
+              ]
+            },
+            {
+              "id": "reference",
+              "value": 0.0,
+              "label": "Referência oficial identificável",
+              "source_urls": [
+                "https://www.zurich.com.br/seguros-para-voce/seguros-para-veiculos/automovel"
+              ]
+            }
+          ]
+        }
+      ],
+      "input_sha256": "49c4add076ce1739f1ee905c3d777f7de52931bd60fe797a098adda07dc70900",
+      "report_sha256": "4ad6672fd2a89aa5068c581bb4a6f3cb1661a4c785bb3fe1e38d0c58605ac879",
+      "limitations": [
+        "Prontidão da página pública de produto, não de todo o site nem da instituição.",
+        "Ausência significa sinal não localizado no corpus; não prova inexistência no site ou na apólice.",
+        "Heurísticas lexicais não verificam suficiência, verdade, qualidade do produto ou conformidade legal.",
+        "A classificação observed_snapshot é fornecida pelo coletor; hashes não autenticam origem.",
+        "Não mede citações reais, sentimento, solvência, preço ou recomendação de seguro.",
+        "PDF pode ter acesso verificado, mas seu conteúdo não é extraído nem avaliado.",
+        "Não resolve CSS/JavaScript, não exige llms.txt e não garante citação por IA.",
+        "Pesos experimentais: publicar também a sensibilidade com pesos iguais e revisar os achados."
+      ]
+    }
+  ],
+  "review": {
+    "kind": "assisted_technical_review",
+    "replay": "6/6 reports and cohort identical",
+    "independent_validation": false,
+    "notes": [
+      "Exclusions absent under the HTML rubric in four measured product pages; no claim of absence from contracts.",
+      "Porto conditions link led to Empresas do Grupo in the preserved snapshot.",
+      "Tokio/Mapfre are tied under equal weights; weighted ordering is not robust to all weight choices.",
+      "Two robots responses HTTP 403; does not prove blocking of actual AI search crawlers."
+    ]
+  },
+  "sources": [
+    "https://www.gov.br/susep/pt-br/assuntos/meu-futuro-seguro/seguros-previdencia-e-capitalizacao/seguros/seguro-de-automoveis",
+    "https://www.gov.br/susep/pt-br/assuntos/meu-futuro-seguro/seguros-previdencia-e-capitalizacao/seguros/informacoes-importantes",
+    "https://developers.google.com/search/docs/appearance/ai-features"
+  ]
+}

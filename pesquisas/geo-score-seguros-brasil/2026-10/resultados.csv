@@ -1,0 +1,7 @@
+id,marca,url_produto,captura_utc,captura_brasilia,nota_1000,nota_pesos_iguais_1000,cobertura_pct,situacao
+allianz,Allianz,https://www.allianz.com.br/seguros/seu-patrimonio/carro.html,2026-10-31T02:49:37+00:00,2026-10-30T23:49:37-03:00,,,0,sem_medida_robots_http_403
+hdi,HDI,https://www.hdiseguros.com.br/produtos/automovel/hdi-auto-perfil,2026-10-31T02:49:51+00:00,2026-10-30T23:49:51-03:00,,,0,sem_medida_robots_http_403
+mapfre,MAPFRE,https://www.mapfre.com.br/para-voce/seguro-auto/automais/,2026-10-31T02:49:38+00:00,2026-10-30T23:49:38-03:00,796.7,750.0,100.0,medida_experimental
+porto,Porto Seguro,https://www.portoseguro.com.br/seguro-auto,2026-10-31T02:49:32+00:00,2026-10-30T23:49:32-03:00,726.7,666.7,100.0,medida_experimental
+tokio,Tokio Marine,https://www.tokiomarine.com.br/seguros-automoveis/seguro-auto,2026-10-31T02:49:41+00:00,2026-10-30T23:49:41-03:00,803.3,750.0,100.0,medida_experimental
+zurich,Zurich,https://www.zurich.com.br/seguros-para-voce/seguros-para-veiculos/automovel,2026-10-31T02:49:51+00:00,2026-10-30T23:49:51-03:00,883.3,816.7,100.0,medida_experimental
